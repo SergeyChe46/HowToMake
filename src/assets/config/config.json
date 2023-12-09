@@ -1,0 +1,5 @@
+{
+  "apiURL": {
+    "Login": "https://localhost:7205/Account/Login"
+  }
+}
