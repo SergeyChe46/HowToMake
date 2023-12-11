@@ -35,9 +35,6 @@ export class LoginComponent implements OnInit {
     };
     this.authService.login(user);
   }
-  checkLogin() {
-    console.log(this.authService.isLoggedIn);
-  }
 
   get username() {
     return this.loginForm.get('username') as FormControl;
